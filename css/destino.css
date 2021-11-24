@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+body {
+  font-family: 'Comic Neue', cursive !important; }
+
+header div {
+  margin-top: 1vh; }
+
+header nav ul li {
+  width: 7vw;
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  position: relative; }
+  @media (max-width: 599px) {
+    header nav ul li {
+      width: 18vw;
+      margin-bottom: 25vh; } }
+
+.cabeza {
+  width: 90vw;
+  height: 15vh;
+  direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center; }
+  @media (max-width: 599px) {
+    .cabeza {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 0px; } }
+  .cabeza img {
+    width: 20vw;
+    height: 15vh; }
+    @media (max-width: 599px) {
+      .cabeza img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50vw;
+        height: 15vh;
+        margin-top: 35vh;
+        margin-left: 13vh; } }
+  .cabeza ul {
+    display: flex; }
+  .cabeza nav a {
+    text-decoration: none !important;
+    color: black !important;
+    margin-top: 5vh;
+    display: block; }
+  @media (max-width: 599px) {
+    .cabeza nav {
+      display: flex;
+      justify-content: right; } }
+  .cabeza li a:hover {
+    background-color: #f2d527;
+    border-radius: 5px; }
+
+footer {
+  width: 98vw;
+  min-height: 10vh; }
+
+.footerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
+.barra {
+  height: 1vh;
+  width: 100%;
+  background-color: black;
+  border-radius: 100px;
+  margin: 2vh 0px; }
+
+@media (max-width: 599px) {
+  .mainDos {
+    margin-top: 10vh; } }
+
+.imagenEDN {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%; }
+  @media (max-width: 599px) {
+    .imagenEDN {
+      display: none; } }
+
+.dosDiv {
+  padding: 2vh;
+  direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center; }
+  @media (max-width: 599px) {
+    .dosDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 30px; } }
+  .dosDiv__youtubeInicio iframe {
+    display: flex;
+    align-content: center;
+    width: 80vh;
+    height: 50vh;
+    margin-top: 20vh; }
+    @media (max-width: 599px) {
+      .dosDiv__youtubeInicio iframe {
+        margin-top: 2vh;
+        width: 95%;
+        height: 30%; } }
+
+.tweet {
+  width: 40vw;
+  min-height: 30vh; }
+  @media (max-width: 599px) {
+    .tweet {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 95%; } }
+
+.twitter-tweet {
+  width: 70vw;
+  height: 50vh; }
+  @media (max-width: 599px) {
+    .twitter-tweet {
+      height: 35vh;
+      margin-top: 12px; } }
+
+@media (max-width: 599px) {
+  .ropitaIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
+
+.ropitaIndex img {
+  width: 30vw;
+  margin: 2vh; }
+  @media (max-width: 599px) {
+    .ropitaIndex img {
+      width: 30vw;
+      min-height: 10vh; } }
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 5fr 5fr;
+  overflow: hidden;
+  min-height: 100vh; }
+  @media (max-width: 599px) {
+    .grid {
+      display: grid;
+      grid-template-columns: 2fr 2fr 2fr;
+      grid-template-rows: 5fr 5fr;
+      overflow: hidden; } }
+  .grid div {
+    text-align: center;
+    margin: 5px; }
+    @media (max-width: 599px) {
+      .grid div {
+        text-align: center; } }
+  .grid img {
+    width: 25vw;
+    height: 50vh;
+    position: relative; }
+    @media (max-width: 599px) {
+      .grid img {
+        width: 25vw;
+        height: 25vh;
+        position: relative; } }
+  .grid img:hover {
+    transform: scale(1.1); }
+    @media (max-width: 599px) {
+      .grid img:hover {
+        transform: scale(1.1); } }
+
+.cardRopita__parrafo {
+  direction: column; }
+
+.videoCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: linear-gradient(245deg, grey, #f2d527);
+  /*degradado*/
+  width: 90vw;
+  height: 60vh; }
+  @media (max-width: 599px) {
+    .videoCard {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; } }
+  .videoCard p {
+    padding: 2vh; }
+    @media (max-width: 599px) {
+      .videoCard p {
+        display: flex;
+        text-align: center; } }
+
+.youtube {
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  padding: 5vw;
+  width: 100vw;
+  height: 60vh; }
+
+.episodios {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.patreonEDN {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  height: 100vh;
+  width: 100vw; }
+  .patreonEDN__parrafo {
+    width: 60vh;
+    height: 50vh; }
+  .patreonEDN__img {
+    height: 70vh;
+    width: 50vw; }
+    @media (max-width: 599px) {
+      .patreonEDN__img {
+        width: 100vw;
+        height: 50vh; } }
+  @media (max-width: 599px) {
+    .patreonEDN {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 80vh; } }
+
+.nosotrosFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  @media (max-width: 599px) {
+    .nosotrosFlex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; } }
+
+.imagenPatreon {
+  width: 40vh;
+  height: 40vh;
+  margin: 2vh;
+  position: relative;
+  border-radius: 10px; }
+  @media (max-width: 599px) {
+    .imagenPatreon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40vh;
+      height: 4s0vh; } }

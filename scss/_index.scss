@@ -1,0 +1,78 @@
+@import 'media';
+
+.imagenEDN {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    @include media-xs{
+        display: none;
+    }
+}
+
+.dosDiv {
+    padding: 2vh;
+    direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    @include media-xs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px;
+    }
+    &__youtubeInicio{
+        iframe{
+            display: flex;
+            align-content: center;
+            width: 80vh;
+            height: 50vh;
+            margin-top: 20vh;
+            @include media-xs{
+                margin-top: 2vh;
+                width: 95%;
+                height: 30%;
+            }
+        }
+    }
+}
+
+
+.tweet{
+    width: 40vw;
+    min-height: 30vh;
+    @include media-xs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+    }
+}
+
+.twitter-tweet{
+    width: 70vw;
+    height: 50vh;
+    @include media-xs{
+        height: 35vh;
+        margin-top: 12px;
+    }
+}
+
+.ropitaIndex{
+    @include media-xs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    img{
+        width: 30vw;
+        margin: 2vh; 
+        @include media-xs{
+            width: 30vw;
+            min-height: 10vh;
+        }
+    }
+       
+}

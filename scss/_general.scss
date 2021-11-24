@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import 'media';
+
+body{
+    font-family:'Comic Neue', cursive !important;
+}
+
+header{
+    div {
+        margin-top: 1vh;
+    }
+
+    nav{
+        ul{
+            li{
+                width: 7vw;
+                text-align: center;
+                list-style-type: none;
+                display: inline-block;
+                position: relative;
+                @include media-xs{
+                    width: 18vw;
+                    margin-bottom: 25vh;
+                }
+            }
+        }
+    }
+}
+
+.cabeza {
+    width: 90vw;
+    height: 15vh;;
+    direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    @include media-xs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 0px;
+    };
+    img{
+        width: 20vw;
+        height: 15vh;
+        @include media-xs{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50vw;
+            height: 15vh;
+            margin-top: 35vh;
+            margin-left: 13vh;
+        }
+    }
+    ul{
+        display: flex;
+    }
+    nav{
+        a{
+            text-decoration: none !important;
+            color: black !important;
+            margin-top: 5vh;
+             display: block;
+        }
+        @include media-xs{
+            display: flex;
+            justify-content: right;
+        }
+    }
+    li{
+        a:hover{
+            background-color: #f2d527;
+            border-radius: 5px;
+        }
+    }
+    
+}
+
+footer{
+    width: 98vw;
+    min-height: 10vh;
+    
+}
+
+.footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.barra{
+    height: 1vh; 
+    width: 100%;
+    background-color: black; 
+    border-radius: 100px; 
+    margin: 2vh 0px;
+}
+
+.mainDos{
+    @include media-xs{
+        margin-top: 10vh;
+    }
+}
