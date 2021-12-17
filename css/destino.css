@@ -185,7 +185,6 @@ footer {
   flex-direction: row;
   align-items: center;
   background-image: linear-gradient(245deg, grey, #f2d527);
-  /*degradado*/
   width: 90vw;
   height: 60vh; }
   @media (max-width: 599px) {
