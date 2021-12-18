@@ -229,24 +229,31 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
-  width: 100vw; }
+  width: 100vw;
+  margin-bottom: 2vh; }
   .patreonEDN__parrafo {
     margin-top: 10vh;
     width: 80vh;
     height: 50vh; }
+    @media (max-width: 599px) {
+      .patreonEDN__parrafo {
+        width: 100%;
+        margin-bottom: 8vh; } }
   .patreonEDN__img {
     height: 70vh;
     width: 50vw; }
     @media (max-width: 599px) {
       .patreonEDN__img {
         width: 100vw;
-        height: 50vh; } }
+        height: 50vh;
+        margin-top: 15vh; } }
   @media (max-width: 599px) {
     .patreonEDN {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      height: 80vh; } }
+      height: 80vh;
+      margin-bottom: 12vh; } }
 
 .nosotrosFlex {
   display: flex;
@@ -259,9 +266,14 @@ h2 {
       justify-content: center; } }
 
 .nosotrsoIndividual {
-  margin-top: 8vh;
+  margin-top: 2vh;
   margin-left: 8vh;
   margin-right: 8vh; }
+  @media (max-width: 599px) {
+    .nosotrsoIndividual {
+      margin-top: 1vh;
+      margin-left: 6vh;
+      margin-right: 4vh; } }
 
 .imagenPatreon {
   width: 40vh;
@@ -275,9 +287,9 @@ h2 {
       flex-direction: column;
       justify-content: center;
       width: 40vh;
-      height: 4s0vh; } }
+      height: 40vh; } }
 
-p {
+.parrafoNI {
   display: flex;
   justify-content: center;
   text-align: center; }
