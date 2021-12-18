@@ -239,7 +239,7 @@ h2 {
       .patreonEDN__parrafo {
         width: 100%;
         margin-bottom: 8vh;
-        padding-left: 1hv; } }
+        padding-left: 10hv; } }
   .patreonEDN__img {
     height: 70vh;
     width: 50vw; }
@@ -273,7 +273,7 @@ h2 {
   @media (max-width: 599px) {
     .nosotrsoIndividual {
       margin-top: 1vh;
-      margin-left: 4vh;
+      margin-left: 2vh;
       margin-right: 4vh; } }
 
 .imagenPatreon {
