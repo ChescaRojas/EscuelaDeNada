@@ -12,6 +12,7 @@
         @include media-xs{
             width: 100%;
             margin-bottom: 8vh;
+            margin-left: 1vh;
         }
     }
     &__img{
@@ -49,7 +50,7 @@
    margin-right: 8vh;
    @include media-xs{
     margin-top: 1vh;
-    margin-left: 6vh;
+    margin-left: 4vh;
     margin-right: 4vh;
    }
 }

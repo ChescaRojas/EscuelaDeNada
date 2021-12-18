@@ -238,7 +238,8 @@ h2 {
     @media (max-width: 599px) {
       .patreonEDN__parrafo {
         width: 100%;
-        margin-bottom: 8vh; } }
+        margin-bottom: 8vh;
+        margin-left: 1vh; } }
   .patreonEDN__img {
     height: 70vh;
     width: 50vw; }
@@ -272,7 +273,7 @@ h2 {
   @media (max-width: 599px) {
     .nosotrsoIndividual {
       margin-top: 1vh;
-      margin-left: 6vh;
+      margin-left: 4vh;
       margin-right: 4vh; } }
 
 .imagenPatreon {
